@@ -48,3 +48,9 @@ Garbage collection, is basically best of both worlds:
 
 ==NOTE== Although the struct maybe public, the fields of it are still private. Whereas, if enums are made public, all their variants are also public.
 
+
+---
+
+# Iterators:
+
+Iterators provide a way to loop over a data type. **Iterators are lazy**, that means that they initialize or idk what but they do their thing lazily, only when called.

@@ -9,7 +9,9 @@
 // mod lifetimes;
 // mod cli_1;
 //
-mod closures;
+// mod closures;
+// mod iterators;
+mod smart_pointers;
 fn main() {
     // chapter2::chapter2();
     // chapter3::chapter3();
@@ -22,5 +24,7 @@ fn main() {
     // traits::traits();
     // lifetimes::lifetimes();
     // cli_1::entry();
-    closures::start();
+    // closures::start();
+    //
+    smart_pointers::pointy_pointy_lol();
 }

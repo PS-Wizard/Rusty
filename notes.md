@@ -54,3 +54,12 @@ Garbage collection, is basically best of both worlds:
 # Iterators:
 
 Iterators provide a way to loop over a data type. **Iterators are lazy**, that means that they initialize or idk what but they do their thing lazily, only when called.
+
+---
+
+# Smart Pointers
+
+- **Box**: It allows us to store data in the heap, while the pointer remains in the stack. Useful when:
+    - When you have a large amount of data and want to transfer ownership, but dont want it to copy
+    - when you own a value and you only care about the value implementing a specific trait and dont care about the specific type.
+

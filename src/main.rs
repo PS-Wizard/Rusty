@@ -11,7 +11,9 @@
 //
 // mod closures;
 // mod iterators;
-mod smart_pointers;
+// mod smart_pointers;
+// mod concurrent;
+mod trait_objs;
 fn main() {
     // chapter2::chapter2();
     // chapter3::chapter3();
@@ -26,5 +28,7 @@ fn main() {
     // cli_1::entry();
     // closures::start();
     //
-    smart_pointers::pointy_pointy_lol();
+    // smart_pointers::pointy_pointy_lol();
+    // concurrent::brrr();
+    trait_objs::go_brrr();
 }
